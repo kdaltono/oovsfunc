@@ -1,9 +1,5 @@
 package com.dijkstrasalgorithm
-
-import com.utils.MemoryUsage
-import com.utils.PerformanceMonitor
 import java.lang.RuntimeException
-import java.util.*
 
 class Vertex(id : String, name : String) {
     private var id : String = id
@@ -136,7 +132,7 @@ class Dijkstra(graph : Graph) {
                 return edge.getWeight()
             }
         }
-        throw RuntimeException("Shouldn't happen")
+        throw RuntimeException("getDistance(): This error should not be thrown")
     }
 
     fun getNeighbours(node : Vertex) : MutableList<Vertex> {
@@ -175,15 +171,4 @@ class Dijkstra(graph : Graph) {
             return d
         }
     }
-}
-
-fun main() {
-    var performanceTracker : PerformanceMonitor = PerformanceMonitor()
-    performanceTracker.startPerformanceMonitor()
-    var graph : Graph = Graph(GraphData.returnGraphOfNode5())
-    var startNode = graph.getVertices().get(0)
-    var endNode = graph.getVertices().get(graph.getVertices().lastIndex)
-    var dijkstra : Dijkstra = Dijkstra(graph)
-    dijkstra.execute(startNode, endNode)
-    performanceTracker.endPerformanceMonitor()
 }

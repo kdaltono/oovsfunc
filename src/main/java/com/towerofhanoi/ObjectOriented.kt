@@ -1,7 +1,5 @@
 package com.towerofhanoi
 
-import com.utils.PerformanceMonitor
-
 class Stack {
     var capacity: Int = 0
     var top: Int = 0
@@ -62,7 +60,7 @@ class ObjectOriented {
     }
 
     fun moveDisk(fromPeg: Char, toPeg: Char, disk: Int) {
-        //println("Move disk " + disk + " from " + fromPeg + " to " + toPeg)
+        println("Move disk " + disk + " from " + fromPeg + " to " + toPeg)
     }
 
     fun iterativeLoop(numOfDisks: Int, src: Stack, aux: Stack, dest: Stack) {
@@ -87,19 +85,4 @@ class ObjectOriented {
             if (i % 3 == 0) moveDisksBetweenTwoPoles(aux, dest, a, d)
         }
     }
-}
-
-fun main() {
-    var performanceMonitor : PerformanceMonitor = PerformanceMonitor()
-    performanceMonitor.startPerformanceMonitor()
-    var numOfDisks = 3;
-
-    var ob : ObjectOriented = ObjectOriented()
-
-    var src : Stack = ob.createStack(numOfDisks)
-    var dest : Stack = ob.createStack(numOfDisks)
-    var aux : Stack = ob.createStack(numOfDisks)
-
-    ob.iterativeLoop(numOfDisks, src, aux, dest)
-    performanceMonitor.endPerformanceMonitor()
 }
