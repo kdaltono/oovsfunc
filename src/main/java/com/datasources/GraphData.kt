@@ -4,9 +4,13 @@ package com.datasources
  * means there will be no inconsistencies between both tests. */
 
 class GraphData {
+
+    // TODO: Add larger Graphs, as the Data for seems to start to lead toward OO being faster in larger datasets,
+    //  but cannot prove this
+
     companion object {
         fun returnGraphOfNode5() : Array<IntArray> {
-            var intArray: Array<IntArray> = arrayOf(
+            val intArray: Array<IntArray> = arrayOf(
                 intArrayOf(-1, 10, 14, -1, -1),
                 intArrayOf(10, -1, 15,  4, -1),
                 intArrayOf(14, 15, -1,  7, 12),
@@ -17,7 +21,7 @@ class GraphData {
         }
 
         fun returnGraphOfNode15() : Array<IntArray> {
-            var intArray: Array<IntArray> = arrayOf(
+            val intArray: Array<IntArray> = arrayOf(
                 intArrayOf(-1,  6,  5, -1,  7, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1), // A
                 intArrayOf( 6, -1, -1, -1,  8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1), // B
                 intArrayOf( 5, -1, -1, -1, -1,  1, -1, -1, -1, -1, -1, -1, -1, -1, -1), // C
@@ -38,7 +42,7 @@ class GraphData {
         }
 
         fun returnGraphOfNode25() : Array<IntArray> {
-            var intArray: Array<IntArray> = arrayOf(
+            val intArray: Array<IntArray> = arrayOf(
                 intArrayOf(-1,  4, -1,  5,  7, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1), // A
                 intArrayOf( 4, -1,  4, -1, -1, -1, -1, -1,  8, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1), // B
                 intArrayOf(-1,  4, -1, -1, -1, -1,  5,  6, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1), // C
