@@ -10,25 +10,30 @@ import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 import org.openjdk.jmh.runner.options.TimeValue;
 
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.util.concurrent.TimeUnit;
 
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @State(Scope.Benchmark)
 
 public class DijkstrasAlgorithmFunc {
-    public static void main(String[] args) throws RunnerException {
+    public static void main(String[] args) throws RunnerException, FileNotFoundException {
         Options options = new OptionsBuilder()
                 .include(DijkstrasAlgorithmFunc.class.getSimpleName())
                 .mode(Mode.AverageTime)
                 .warmupTime(TimeValue.seconds(1L))
                 .warmupIterations(5)
                 .threads(1)
-                .measurementIterations(15)
+                .measurementIterations(25)
                 .forks(1)
                 .addProfiler(GCProfiler.class)
                 .shouldFailOnError(true)
                 .shouldDoGC(true)
                 .build();
+
+        PrintStream output = new PrintStream(DijkstrasAlgorithmFunc.class.getSimpleName() + "-BenchmarkResults.txt");
+        System.setOut(output);
 
         new Runner(options).run();
     }
