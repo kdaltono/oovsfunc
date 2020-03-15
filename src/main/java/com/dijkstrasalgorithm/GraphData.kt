@@ -1,7 +1,7 @@
 package com.dijkstrasalgorithm
 
 /* This class holds the graphs that Functional.kt and ObjectOriented.kt will solve. Having one file to store both
- * means it will be less likely for there to be inconsistencies between the two. */
+ * means there will be no inconsistencies between both tests. */
 
 class GraphData {
     companion object {

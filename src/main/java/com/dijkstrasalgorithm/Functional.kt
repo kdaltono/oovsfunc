@@ -1,10 +1,5 @@
 package com.dijkstrasalgorithm
 
-/*fun main() {
-    val graph: Array<IntArray> = GraphData.returnGraphOfNode5()
-    startDijkstra(graph, 4, 0)
-}*/
-
 fun startDijkstra(graph: Array<IntArray>, startNode: Int, endNode: Int) {
     var visitedNodes : BooleanArray = BooleanArray(graph.size) { false } // Holds visited nodes
     var tentativeDistances : IntArray = IntArray(graph.size) { Int.MAX_VALUE - 1 }
@@ -55,4 +50,3 @@ fun getNextNode(tentativeDistances: IntArray, visited: BooleanArray, shortestDis
     } else
         return shortestNode
 }
-
