@@ -1,7 +1,7 @@
 package com.benchmarks;
 
 import com.insertionsort.InsertionSort;
-import com.insertionsort.IntArrayData;
+import com.datasources.IntArrayData;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.profile.GCProfiler;
 import org.openjdk.jmh.runner.Runner;

@@ -2,7 +2,7 @@ package com.benchmarks;
 
 import com.dijkstrasalgorithm.Dijkstra;
 import com.dijkstrasalgorithm.Graph;
-import com.dijkstrasalgorithm.GraphData;
+import com.datasources.GraphData;
 import com.dijkstrasalgorithm.Vertex;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.profile.GCProfiler;

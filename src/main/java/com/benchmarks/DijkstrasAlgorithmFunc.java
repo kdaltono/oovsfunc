@@ -1,5 +1,6 @@
 package com.benchmarks;
 
+import com.datasources.GraphData;
 import com.dijkstrasalgorithm.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.profile.GCProfiler;
