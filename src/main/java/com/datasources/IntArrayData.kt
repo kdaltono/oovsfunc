@@ -1,4 +1,4 @@
-package com.insertionsort
+package com.datasources
 
 /* This class holds the IntArrays that will be used to test the QuickSort implementations in Functional.kt and
 *  ObjectOriented.kt. Storing the Arrays in one class means there will be no inconsistencies between both tests */

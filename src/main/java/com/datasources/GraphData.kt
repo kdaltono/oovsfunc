@@ -1,4 +1,4 @@
-package com.dijkstrasalgorithm
+package com.datasources
 
 /* This class holds the graphs that Functional.kt and ObjectOriented.kt will solve. Having one file to store both
  * means there will be no inconsistencies between both tests. */
