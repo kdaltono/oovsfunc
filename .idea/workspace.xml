@@ -10,12 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="834d175d-cb2b-4ca8-adda-bb14da379d76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/benchmarks/KruskalsAlgorithmFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/benchmarks/KruskalsAlgorithmOO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/Functional.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/ObjectOriented.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/benchmarks/DijkstrasAlgorithmFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/benchmarks/DijkstrasAlgorithmFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/benchmarks/DijkstrasAlgorithmOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/benchmarks/DijkstrasAlgorithmOO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/benchmarks/InsertionSortFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/benchmarks/InsertionSortFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/benchmarks/InsertionSortOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/benchmarks/InsertionSortOO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/jmh/target/" />
@@ -31,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/ObjectOriented.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="441">
+              <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -43,8 +42,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/Functional.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="136">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/benchmarks/KruskalsAlgorithmFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/benchmarks/KruskalsAlgorithmOO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,6 +100,12 @@
       <find>nextNode</find>
       <find>currentNeode</find>
       <find>intArrayof</find>
+      <find>graph.size</find>
+      <find>edge[0]</find>
+      <find>src</find>
+      <find>edge[1]</find>
+      <find>findMST</find>
+      <find>getNextShortestEdge</find>
     </findStrings>
     <replaceStrings>
       <replace>newMemVar</replace>
@@ -83,6 +118,12 @@
       <replace>currentNode`</replace>
       <replace>currentNode</replace>
       <replace>intArrayOf</replace>
+      <replace>graphSize</replace>
+      <replace>src</replace>
+      <replace>srcNode</replace>
+      <replace>dest</replace>
+      <replace>destNode</replace>
+      <replace>findMST</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -121,6 +162,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/benchmarks/InsertionSortOO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/benchmarks/InsertionSortFunc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/insertionsort/IntArrayData.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/ObjectOriented.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/benchmarks/KruskalsAlgorithmOO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/Functional.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/benchmarks/KruskalsAlgorithmFunc.java" />
       </list>
     </option>
   </component>
@@ -140,8 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +276,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,20 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertionSortFunc">
-    <configuration name="DijkstrasAlgorithmFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.benchmarks.DijkstrasAlgorithmFunc" />
-      <module name="FunctionalAndOO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.benchmarks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KruskalsAlgorithmOO">
     <configuration name="InsertionSortFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.benchmarks.InsertionSortFunc" />
       <module name="FunctionalAndOO" />
@@ -293,8 +325,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortOO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.benchmarks.InsertionSortOO" />
+    <configuration name="KruskalsAlgorithmFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.benchmarks.KruskalsAlgorithmFunc" />
       <module name="FunctionalAndOO" />
       <extension name="coverage">
         <pattern>
@@ -306,46 +338,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.insertionsort.FunctionalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="KruskalsAlgorithmOO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.benchmarks.KruskalsAlgorithmOO" />
+      <module name="FunctionalAndOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.benchmarks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kruskalsalgorithm.FunctionalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FunctionalAndOO" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.insertionsort.FunctionalKt" />
+      <option name="MAIN_CLASS_NAME" value="com.kruskalsalgorithm.FunctionalKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.insertionsort.ObjectOrientedKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.kruskalsalgorithm.ObjectOrientedKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FunctionalAndOO" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.insertionsort.ObjectOrientedKt" />
+      <option name="MAIN_CLASS_NAME" value="com.kruskalsalgorithm.ObjectOrientedKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DijkstrasAlgorithmFunc" />
       <item itemvalue="Application.InsertionSortFunc" />
-      <item itemvalue="Application.InsertionSortOO" />
-      <item itemvalue="Kotlin.com.insertionsort.FunctionalKt" />
-      <item itemvalue="Kotlin.com.insertionsort.ObjectOrientedKt" />
+      <item itemvalue="Kotlin.com.kruskalsalgorithm.ObjectOrientedKt" />
+      <item itemvalue="Kotlin.com.kruskalsalgorithm.FunctionalKt" />
+      <item itemvalue="Application.KruskalsAlgorithmFunc" />
+      <item itemvalue="Application.KruskalsAlgorithmOO" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KruskalsAlgorithmOO" />
+        <item itemvalue="Application.KruskalsAlgorithmFunc" />
+        <item itemvalue="Kotlin.com.kruskalsalgorithm.FunctionalKt" />
+        <item itemvalue="Kotlin.com.kruskalsalgorithm.ObjectOrientedKt" />
         <item itemvalue="Application.InsertionSortFunc" />
-        <item itemvalue="Application.InsertionSortOO" />
-        <item itemvalue="Kotlin.com.insertionsort.FunctionalKt" />
-        <item itemvalue="Kotlin.com.insertionsort.ObjectOrientedKt" />
-        <item itemvalue="Application.DijkstrasAlgorithmFunc" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584295075141</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactoring">
+      <created>1584295189800</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584295189800</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -471,7 +523,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,7 +532,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9492635" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.91653025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dijkstrasalgorithm/ObjectOriented.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="125" column="9" lean-forward="true" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/towerofhanoi/Functional.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -593,30 +638,6 @@
             <element signature="e#1467#1468#0" expanded="true" />
             <element signature="e#1559#1560#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/benchmarks/DijkstrasAlgorithmOO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dijkstrasalgorithm/Functional.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datasources/GraphData.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -656,16 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/benchmarks/InsertionSortFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/datasources/IntArrayData.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -673,17 +684,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/Functional.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/benchmarks/InsertionSortFunc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="799">
+          <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dijkstrasalgorithm/ObjectOriented.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datasources/GraphData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/benchmarks/DijkstrasAlgorithmOO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dijkstrasalgorithm/Functional.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/ObjectOriented.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="441">
+          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kruskalsalgorithm/Functional.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/benchmarks/KruskalsAlgorithmOO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/benchmarks/KruskalsAlgorithmFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
